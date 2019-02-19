@@ -1,0 +1,16 @@
+1.
+
+#/nano/bash
+echo "Escribe el primer valor"
+read numero1
+echo "Escribe el segundo valor"
+read numero2
+
+if [ $numero1 -gt $numero2 ]; then
+        echo $numero1 "Es mayor que" $numero2
+elif [ $numero1 == $numero2 ]; then
+        echo "Son Iguales"
+else
+        echo $numero2 "Es mayor que" $numero1
+fi
+
