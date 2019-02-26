@@ -43,7 +43,7 @@ echo "La media de tus numeros es: "$media
 
 #!/bin/bash
 
-read -p "Dime cantidad de litros: " litros
+read -p "Cantidad de litros" litros
 
 coste=0
 coste2=0
